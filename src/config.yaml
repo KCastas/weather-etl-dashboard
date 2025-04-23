@@ -1,0 +1,62 @@
+# City Coordinates Configuration File
+cities:
+  Athens:
+    latitude: 37.9838
+    longitude: 23.7275
+  Thessaloniki:
+    latitude: 40.6401
+    longitude: 22.9444
+  Patras:
+    latitude: 38.2466
+    longitude: 21.7346
+  Heraklion:
+    latitude: 35.3387
+    longitude: 25.1442
+  Larissa:
+    latitude: 39.6390
+    longitude: 22.4191
+  Volos:
+    latitude: 39.3622
+    longitude: 22.9422
+  Rhodes:
+    latitude: 36.4349
+    longitude: 28.2176
+  Ioannina:
+    latitude: 39.6650
+    longitude: 20.8537
+  Chania:
+    latitude: 35.5138
+    longitude: 24.0180
+  Corfu:
+    latitude: 39.6243
+    longitude: 19.9217
+  Kavala:
+    latitude: 40.9398
+    longitude: 24.4019
+  Serres:
+    latitude: 41.0931
+    longitude: 23.5624
+  Alexandroupoli:
+    latitude: 40.8485
+    longitude: 25.8741
+  Kalamata:
+    latitude: 37.0379
+    longitude: 22.1141
+  Tripoli:
+    latitude: 37.5089
+    longitude: 22.3794
+  Lamia:
+    latitude: 38.9000
+    longitude: 22.4333
+  Veria:
+    latitude: 40.5236
+    longitude: 22.2034
+  Agrinio:
+    latitude: 38.6214
+    longitude: 21.4077
+  Kozani:
+    latitude: 40.3006
+    longitude: 21.7890
+  Drama:
+    latitude: 41.1514
+    longitude: 24.1393
