@@ -43,7 +43,7 @@ CREATE TABLE weather (
    wind_status text,
    CONSTRAINT weather_pkey PRIMARY KEY (date, city)
 );
-
+```
 
 ---
 
@@ -66,3 +66,4 @@ weather-etl/
 ├── .env # PostgreSQL credentials
 ├── requirements.txt # Dependencies
 └── README.md
+```
