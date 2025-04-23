@@ -49,7 +49,7 @@ CREATE TABLE weather (
 
 ## 🔧 Setup
 1. **Clone the repository**:
-   git clone https://github.com/KCastas/weather-etl.git
+   git clone https://github.com/KCastas/weather-etl.git<br>
    cd weather-etl
 2. **Install dependencies**:
    pip install -r requirements.txt
