@@ -3,7 +3,7 @@
 **A data engineering project** that collects, processes and visualizes weather data.
 *Built with Python, Streamlit, and PostgreSQL.*
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-streamlit-app-url.streamlit.app/) *(Replace with your deployed link)*  
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-streamlit-app-url.streamlit.app/) 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15%2B-orange)
 
@@ -22,14 +22,15 @@ The python script "weather_etl.py" can be scheduled to run daily to get new data
 |----------------|------------|
 | **Extraction** | `openmeteo-requests`, `retry-requests` |
 | **Transformation** | `pandas`, `numpy` |
-| **Database**   | PostgreSQL, `SQLAlchemy` |
+| **Database**   | `PostgreSQL`, `SQLAlchemy` |
 | **Visualization** | `Streamlit`, `Plotly` |
-| **Deployment** | Streamlit Cloud, Docker *(optional)* |
+| **Deployment** | `Streamlit Cloud`|
 
 
 ## Database Schema
 The pipeline stores the data in a PostgreSQL Database with the following schema: 
 
+```sql
 CREATE TABLE weather (
    date date NOT NULL,
    city text NOT NULL,
@@ -41,7 +42,7 @@ CREATE TABLE weather (
    rain_status text,
    wind_status text,
    CONSTRAINT weather_pkey PRIMARY KEY (date, city)
-)
+);
 
 
 ---
@@ -56,12 +57,12 @@ CREATE TABLE weather (
 
 
 ## Project Structure
-
+```
 weather-etl/
 ├── src/
-│   ├── etl_pipeline.py      # ETL script
-│   └── dashboard.py         # Streamlit app
-├── imgs/                    # Screenshots for README.md
-├── .env                     # PostgreSQL Credentials
-├── Requirements.txt         # Dependencies
-└── README.md     
+│ ├── etl_pipeline.py # ETL script
+│ └── dashboard.py # Streamlit app
+├── imgs/ # Screenshots
+├── .env # PostgreSQL credentials
+├── requirements.txt # Dependencies
+└── README.md
