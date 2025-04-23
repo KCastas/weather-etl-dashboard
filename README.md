@@ -24,7 +24,6 @@ The python script "weather_etl.py" can be scheduled to run daily to get new data
 | **Transformation** | `pandas`, `numpy` |
 | **Database**   | `PostgreSQL`, `SQLAlchemy` |
 | **Visualization** | `Streamlit`, `Plotly` |
-| **Deployment** | `Streamlit Cloud`|
 
 
 ## Database Schema
