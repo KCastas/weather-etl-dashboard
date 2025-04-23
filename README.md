@@ -53,7 +53,7 @@ CREATE TABLE weather (
    cd weather-etl
 2. **Install dependencies**:
    pip install -r requirements.txt
-3. **Configure the .env.example file with database credentials and rename to .env
+3. Configure the .env.example file with database credentials and rename to .env
 
 
 ## Project Structure
